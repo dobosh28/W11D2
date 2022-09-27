@@ -3,7 +3,7 @@ import { useCoffeeContext } from "../context/CoffeeContext";
 
 const SelectedCoffeeBean = () => {
   const { coffeeBean } = useCoffeeContext();
-  debugger
+  
   return (
     <div className="selected-coffee">
       <h2>{coffeeBean.name}</h2>
